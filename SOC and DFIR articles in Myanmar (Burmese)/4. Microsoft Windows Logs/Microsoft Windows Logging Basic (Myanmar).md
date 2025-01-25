@@ -17,7 +17,7 @@ Windows Logs တွေဟာ xml format နဲ့ရှိနေပြီး အ
 
 XML Format နဲ့ကြည့်ရင် အထက်ပါ Log ကို ဒီလိုတွေ့ရပါမယ်။
 
-![[Pasted image 20250124092258.png]]
+![image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/main/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/4.%20Microsoft%20Windows%20Logs/Pasted%20image%2020250124092258.png?raw=true)
 
 ###### တစ်ခြား အရေးကြီးတဲ့ Field တွေကို အောက်ပါ List မှ ကြည့်နိုင်ပါတယ်။
 
@@ -59,8 +59,7 @@ Windows Log တွေနဲ့ ပက်သက်ပြီး SOC Architect တ�
 > [!Attention]
 > Windows Log တွေကို Default setting ဘဲထားမယ်ဆိုရင် Sigma rule repo ထဲက rules တွေရဲ့ 10~20% လောက်သာ အသုံးပြုလို့ရမှာပါ။ များသောအားဖြင့် windows sigma rules တွေက sysmon နှင့် တစ်ခြား Non-default enable logs တွေပေါ်မှာ အခြေခံ detection ကိုရေးထားလို့ပါ။ အောက်ပါ ပုံ ကို reference လုပ်နိုင်ပါတယ်။
 
-![[Pasted image 20250124092632.png]]
-
+![image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/main/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/4.%20Microsoft%20Windows%20Logs/Pasted%20image%2020250124092632.png?raw=true)
 
 ###### Default Application, system, security Log တွေအပြင် အောက်ပါ Log တွေကိုလဲ SIEM ကိုပိုသင့်ပါတယ်။
 
