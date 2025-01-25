@@ -2,8 +2,8 @@ SOC မှာအလုပ်လုပ်မဲ့ Security Analyst တစ်ယ�
 
 Windows OS က default အားဖြင့် Log တစ်ချို့ကို generate လုပ်ပါတယ်။ Default အားဖြင့် Application, System, Security log တွေကို generate လုပ်ပါတယ်။ မိမိစက်က Log တွေကို ပြန်ကြည့်ချင် ရင် Windows မှာ Event Viewer ဆိုတဲ့ program လေးပါပါတယ်။ ဒီ program လေးကနေ လက်ရှိ မိမိ ကွန်ပျူတာ၊ ဆာဗာ မှာဖြစ်ပျက်နေတဲ့ အဖြစ်အပျက်တွေကိုကြည့်လို့ရပါတယ်။
 
-> [!Attention]
-> ဒါပေမဲ့ Windows Default log setting က ကန့်သတ်ချက်အများကြီးရှိပါတယ်။ Logs တွေကို C:\Windows\System32\winevt\Logs ဆိုတဲ့ directory အောက်မှာ .evtx ဆိုတဲ့ ဖိုင် format နဲ့ သိမ်း‌ပြီး ခုနပြောတဲ့ Application, System, Security စတဲ့ Log တွေရဲ့ Log ဖိုင်ဆိုဒ်ဟာ 20 MB ထိပဲ လက်ခံပါတယ်။ 20 MB ပြည့်ရင် အရင်က Log တွေပျက်သွားပြီး auto rotate ပုံစံနဲ့ saveတာပါ။ ဒီ 20MB ဆိုဒ် limit setting ကိုပြင်လို့ရပါတယ်။ ကိုယ့်စက်၊ဆာဗာမှာ storage space အပိုရှိမယ်ဆို အနည်းဆုံး 2GB လောက်ထိထားသင့်ပါတယ်။
+
+ဒါပေမဲ့ Windows Default log setting က ကန့်သတ်ချက်အများကြီးရှိပါတယ်။ Logs တွေကို C:\Windows\System32\winevt\Logs ဆိုတဲ့ directory အောက်မှာ .evtx ဆိုတဲ့ ဖိုင် format နဲ့ သိမ်း‌ပြီး ခုနပြောတဲ့ Application, System, Security စတဲ့ Log တွေရဲ့ Log ဖိုင်ဆိုဒ်ဟာ 20 MB ထိပဲ လက်ခံပါတယ်။ 20 MB ပြည့်ရင် အရင်က Log တွေပျက်သွားပြီး auto rotate ပုံစံနဲ့ saveတာပါ။ ဒီ 20MB ဆိုဒ် limit setting ကိုပြင်လို့ရပါတယ်။ ကိုယ့်စက်၊ဆာဗာမှာ storage space အပိုရှိမယ်ဆို အနည်းဆုံး 2GB လောက်ထိထားသင့်ပါတယ်။
 
 ဒါကြောင့် Windows Logs တွေကို SIEM ဆီသို့ real time တောက်လျှောက်ပို့နေဖို့လိုပါတယ်။
 
@@ -56,8 +56,7 @@ Default အားဖြင့် ပေါ်လေ့ရှိတဲ့ Log တ
 
 Windows Log တွေနဲ့ ပက်သက်ပြီး SOC Architect တွေအနေနဲ့ သတိပြုစရာ လေးတွေဆက်ပြောပြပါမယ်။
 
-> [!Attention]
-> Windows Log တွေကို Default setting ဘဲထားမယ်ဆိုရင် Sigma rule repo ထဲက rules တွေရဲ့ 10~20% လောက်သာ အသုံးပြုလို့ရမှာပါ။ များသောအားဖြင့် windows sigma rules တွေက sysmon နှင့် တစ်ခြား Non-default enable logs တွေပေါ်မှာ အခြေခံ detection ကိုရေးထားလို့ပါ။ အောက်ပါ ပုံ ကို reference လုပ်နိုင်ပါတယ်။
+Windows Log တွေကို Default setting ဘဲထားမယ်ဆိုရင် Sigma rule repo ထဲက rules တွေရဲ့ 10~20% လောက်သာ အသုံးပြုလို့ရမှာပါ။ များသောအားဖြင့် windows sigma rules တွေက sysmon နှင့် တစ်ခြား Non-default enable logs တွေပေါ်မှာ အခြေခံ detection ကိုရေးထားလို့ပါ။ အောက်ပါ ပုံ ကို reference လုပ်နိုင်ပါတယ်။
 
 ![image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/main/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/4.%20Microsoft%20Windows%20Logs/Pasted%20image%2020250124092632.png?raw=true)
 
