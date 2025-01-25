@@ -13,7 +13,7 @@ Windows Logs တွေဟာ xml format နဲ့ရှိနေပြီး အ
 
 အဓိက အကျဆုံး field ဆိုရင်တော့ Event ID field ပါပဲ။ သူက Event တစ်ခု Log တစ်ကြောင်း က ဘယ်လို Logလဲ၊ ဘာအမျိုးအစားလဲဆိုတာဖော်ပြပေးပါတယ်။ Event ID နံပါတ်ပေါ်မူတည်ပြီး ဒါက ဘယ်လို Event လဲ ဘာကြောင့်ဖြစ်လဲ ဆိုတာပြောပြလို့ရပါတယ်။ ဥပမာ - Event ID 4720 နဲ့ လာတဲ့ Event ဆို တစ်ယောက်ယောက်က ကွန်ပျူတာမှာ user account အသစ်တည်ဆောက်တဲ့ အချိန်မှာလာတဲ့ Event ဖြစ်တယ်။ AD ထဲမှာ user တစ်ယောက်ကို delete လုပ်လိုက်မယ်ဆိုရင်တော့ event ID 4726 ပါတဲ့ log တစ်ကြောင်းကို တွေ့ရပါလိမ့်မယ်။
 
-https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/main/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/4.%20Microsoft%20Windows%20Logs/Pasted%20image%2020250124091933.png?raw=true
+![image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/main/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/4.%20Microsoft%20Windows%20Logs/Pasted%20image%2020250124091933.png?raw=true)
 
 XML Format နဲ့ကြည့်ရင် အထက်ပါ Log ကို ဒီလိုတွေ့ရပါမယ်။
 
