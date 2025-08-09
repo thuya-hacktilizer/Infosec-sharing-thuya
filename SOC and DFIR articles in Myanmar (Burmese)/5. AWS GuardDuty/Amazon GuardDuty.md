@@ -1,4 +1,6 @@
-![[Pasted image 20250809200744.png]]
+!\[image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200744.png?raw=true)
+
+
 
 ဒီနေ့တော့ AWS နဲ့ security feature တစ်ခုဖြစ်တဲ့ GuardDuty ဆိုတဲ့ service လေးနဲ့ မိတ်ဆက်ပေးချင်ပါတယ်။ ဒီ Service လေးကို ကျွန်တော်လုပ်ဖူးတဲ့ Cloud Log source တွေရှိတဲ့ SOC တော်တော်များများမှာတွေ့ဖူးပါတယ်။ မှတ်မှတ်ရရ လုပ်ပေးဖူးတဲ့ SOC တစ်ခုဆို အဲ့ Customer ကသူ့ Infra တစ်ခုလုံးကို AWS မှာ Run တာပါ။ ကုမ္ပဏီက တက်ဆီဆားဗစ် App ကုမ္ပဏီပါ။ အရှေ့တောင် အာရှ အခြေဆိုဒ် ကုမ္ပဏီတစ်ခုပါ။ ဒီကုမ္ပဏီက AWS Log source တော်တော်များများက Log တွေကို SIEM ပေါ်ကိုပို့ထားပါတယ်။ SIEM ကလဲ AWS Cloud ပေါ်မှာပါပဲ။ အဓိကသူတို့ AWS service တွေသုံးတဲ့ထဲ မှာ GuardDuty ဆိုတဲ့ security service လေးကိုသုံးတာလည်းတွေ့ခဲ့ရပါတယ်။
 
@@ -13,9 +15,14 @@ Malware တွေ့သွားလို့ ကိုယ်က  အဲ့ Snap
 GuardDuty က Alert တွေကို SIEM ထဲကို ပို့ထားပြီး SIEM ကနေပဲ GuardDuty ကို Log source တစ်ခု သဘောမျိုးထားပြီး စီမံလို့လဲရပါတယ်။ GuardDuty Alert တွေကိုကြည့်ပြီး SOC က response လုပ်လို့လဲရပါတယ်။ SIEMကိုလာတဲ့ နမူနာ GuardDuty Alert တွေကိုကြည့်ချင်ရင်တော့ Splunk နဲ့ BOTSv3 Data set ထဲမှာ အောက်ပါ filter ကိုသုံးပြီးရှာကြည့်လို့ရပါတယ်။
 
 
-![[Pasted image 20250809200704.png]]
 
-![[Pasted image 20250809200707.png]]
+!\[image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200704.png?raw=true)
+
+
+
+!\[image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200707.png?raw=true)
+
+
 
 GuardDuty ကိုစပြီးဖွင့်လိုက်မယ်ဆိုရင်တော့ တစ်လ Trial free ရပါလိမ့်မယ်။ သူက Pay-as-you-go service ဖြစ်တာကြောင့် ကိုယ့် environment ကသူ process လုပ်ရမယ့် Log Volume ပေါ်မူတည်ပြီး ကုန်ကျစရိတ်ရှိမှာပါ။ ပထမတစ်လ Trial မှာ ကိုယ့် environment မှာ ဘယ်လောက်လောက် ကျသင့်မလဲ မှန်းလို့ရသွားပါလိမ့်မယ်။ Pricing အသေးစိတ်တွက်ချက်မှုကိုတော့ အောက်ကသူ့ရဲ့ pricing page မှာ ဝင်ရောက်ကြည့်ရှုနိုင်ပါတယ်။ [https://aws.amazon.com/guardduty/pricing/](https://aws.amazon.com/guardduty/pricing/)
 
@@ -25,3 +32,4 @@ AWS environment မှာအဖြစ်များလေ့ရှိတဲ့ 
 
 စေတနာဖြင့်
 သူရ (9.8.2025)
+
