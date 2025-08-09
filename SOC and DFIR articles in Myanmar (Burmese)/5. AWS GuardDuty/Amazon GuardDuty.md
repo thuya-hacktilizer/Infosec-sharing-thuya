@@ -1,4 +1,4 @@
-!\[image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200744.png?raw=true)
+![image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200744.png?raw=true)
 
 
 
@@ -16,11 +16,11 @@ GuardDuty က Alert တွေကို SIEM ထဲကို ပို့ထာ�
 
 
 
-!\[image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200704.png?raw=true)
+![image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200704.png?raw=true)
 
 
 
-!\[image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200707.png?raw=true)
+![image alt](https://github.com/thuya-hacktilizer/Infosec-sharing-thuya/blob/b49cdc44090b0b6df54aea820e6901c2cb0149c8/SOC%20and%20DFIR%20articles%20in%20Myanmar%20(Burmese)/5.%20AWS%20GuardDuty/Pasted%20image%2020250809200707.png?raw=true)
 
 
 
